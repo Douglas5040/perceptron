@@ -6,7 +6,9 @@ Turma: Redes Neurais Código: SCC 5809
 
 # Equipe:
 ID. Matricula (01) - 12116252 Dheniffer Caroline Araújo Pessoa
+
 ID. Matricula (02) 
+
 ID. Matricula (03) - 12116738 Laleska Mesquita
 
 # Instruções:  
@@ -204,7 +206,7 @@ while(erro != 0.0):
 def perceptron(x):
     return f_ativacao(np.sum(w*x)+b)
 
-# avaliação
+# Avaliação
 
 #v: matriz para avaliação
 v = entra_A_data.v()
