@@ -21,6 +21,7 @@ Desenvolvimento: O ambiente utilizado para a compilação do algoritmo foi o Vis
 import numpy as np
 
 def v(): return np.array([
+
                 #normal
  
                     #1
@@ -173,11 +174,17 @@ import entradas.data as entra_A_data
 import treinamento.data as trei_A_data
 
 #print('a_normal', a_normal.p())
+
 #p: Vetor com as matrizes de entrada.
+
 p = trei_A_data.p()
+
 #p_r: vetor com o valor de cada matriz em p, em ordem
+
 p_r = np.array([1.0,1.0,1.0,1.0,-1.0,-1.0,-1.0,-1.0])
+
 #w: pesos da rede, um peso pra dada posição da matriz
+
 w = np.zeros((5,5))
 
 # BIAS
@@ -209,9 +216,13 @@ def perceptron(x):
 # Avaliação
 
 #v: matriz para avaliação
+
 v = entra_A_data.v()
+
 #v_r: vetor com o valor de cada matriz em v, em ordem
+
 v_r = np.array([1.0,1.0,1.0,1.0,1.0,-1.0,-1.0,-1.0,-1.0,-1.0])
+
 #print(v_r)
 
 for i_v in range(len(v)):
