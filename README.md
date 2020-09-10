@@ -11,12 +11,13 @@ ID. Matricula (03) - 12116738 Laleska Mesquita
 Instruções:  implementar e treinar o modelo Adaline par reconhecer os símbolos A e A Invertido.
 Faça uma representação matricial de -1 e +1 par desenhar esses símbolos graficamente, e crie vários exemplos de treinamento e teste, inserindo ruídos arbitrariamente. 
 
-Desenvolvimento: O ambiente utilizado para a compilação do algoritmo foi o Visual Studio Code, 
-•	Código referente as “Entradas”
+Desenvolvimento: O ambiente utilizado para a compilação do algoritmo foi o Visual Studio Code.
+
+# Código referente as “Entradas”
 import numpy as np
 
 def v(): return np.array([
-                #nomal
+                #normal
  
                     #1
                     [[+1, -1, +1, -1, -1],
@@ -95,7 +96,7 @@ def v(): return np.array([
                 ])
 #print (v())
 
-•	Código Referente ao “Treinamento” 
+# Código Referente ao “Treinamento” 
 
 import numpy as np
 
@@ -160,7 +161,8 @@ def p(): return np.array([
             ])
 #print (p())
 
-•	Código Referente ao Algoritmo de “Perceptron”
+# Código Referente ao Algoritmo de “Perceptron”
+
 import numpy as np
 
 import entradas.data as entra_A_data
@@ -173,6 +175,7 @@ p = trei_A_data.p()
 p_r = np.array([1.0,1.0,1.0,1.0,-1.0,-1.0,-1.0,-1.0])
 # w: pesos da rede, um peso pra dada posição da matriz
 w = np.zeros((5,5))
+
 # BIAS
 b = np.zeros(1)
 
@@ -199,7 +202,7 @@ while(erro != 0.0):
 def perceptron(x):
     return f_ativacao(np.sum(w*x)+b)
 
-#avaliação
+# avaliação
 # v: matriz para avaliação
 v = entra_A_data.v()
 # v_r: vetor com o valor de cada matriz em v, em ordem
