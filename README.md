@@ -13,7 +13,7 @@ ID. Matricula (03) - 12116738 Laleska Mesquita
 
 # Instruções:  
 Implementar e treinar o modelo Adaline par reconhecer os símbolos A e A Invertido.
-Faça uma representação matricial de -1 e +1 par desenhar esses símbolos graficamente, e crie vários exemplos de treinamento e teste, inserindo ruídos arbitrariamente. 
+Faça uma representação matricial de -1 e +1 para desenhar esses símbolos graficamente, e crie vários exemplos de treinamento e teste, inserindo ruídos arbitrariamente. 
 
 Desenvolvimento: O ambiente utilizado para a compilação do algoritmo foi o Visual Studio Code.
 
