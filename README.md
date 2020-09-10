@@ -169,11 +169,11 @@ import entradas.data as entra_A_data
 import treinamento.data as trei_A_data
 
 #print('a_normal', a_normal.p())
-# p: Vetor com as matrizes de entrada.
+#p: Vetor com as matrizes de entrada.
 p = trei_A_data.p()
-# p_r: vetor com o valor de cada matriz em p, em ordem
+#p_r: vetor com o valor de cada matriz em p, em ordem
 p_r = np.array([1.0,1.0,1.0,1.0,-1.0,-1.0,-1.0,-1.0])
-# w: pesos da rede, um peso pra dada posição da matriz
+#w: pesos da rede, um peso pra dada posição da matriz
 w = np.zeros((5,5))
 
 # BIAS
@@ -203,9 +203,10 @@ def perceptron(x):
     return f_ativacao(np.sum(w*x)+b)
 
 # avaliação
-# v: matriz para avaliação
+
+#v: matriz para avaliação
 v = entra_A_data.v()
-# v_r: vetor com o valor de cada matriz em v, em ordem
+#v_r: vetor com o valor de cada matriz em v, em ordem
 v_r = np.array([1.0,1.0,1.0,1.0,1.0,-1.0,-1.0,-1.0,-1.0,-1.0])
 #print(v_r)
 
