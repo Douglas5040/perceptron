@@ -1,14 +1,16 @@
-# Descrição da atividade
+# Descrição da atividade:
 Implementação de um algoritmo Perceptron com 1 neurônio artificial.  Tendo como objetivo classificar figuras com a letra "A" (cujo label é definido como +1) e a letra "∀" (cujo label é definido como -1).
 
 Data: 10 de setembro de 2020
 Turma: Redes Neurais Código: SCC 5809
-Equipe:
+
+# Equipe:
 ID. Matricula (01) - 12116252 Dheniffer Caroline Araújo Pessoa
 ID. Matricula (02) 
 ID. Matricula (03) - 12116738 Laleska Mesquita
 
-Instruções:  implementar e treinar o modelo Adaline par reconhecer os símbolos A e A Invertido.
+# Instruções:  
+Implementar e treinar o modelo Adaline par reconhecer os símbolos A e A Invertido.
 Faça uma representação matricial de -1 e +1 par desenhar esses símbolos graficamente, e crie vários exemplos de treinamento e teste, inserindo ruídos arbitrariamente. 
 
 Desenvolvimento: O ambiente utilizado para a compilação do algoritmo foi o Visual Studio Code.
