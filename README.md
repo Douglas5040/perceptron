@@ -106,7 +106,9 @@ def v(): return np.array([
 import numpy as np
 
 def p(): return np.array([
+
             #normal
+            
                 #1
                 [[-1, -1, +1, -1, -1],
                 [-1, +1, -1, +1, -1],
