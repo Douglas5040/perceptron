@@ -20,7 +20,7 @@ def f_ativacao(x):
         return -1.0
     return 1.0
 
-alpha = 0.5
+alpha = 0.6
 erro  = 1.0
 while(erro != 0.0):
     for i_matriz in range(len(p)):
